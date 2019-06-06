@@ -38,8 +38,7 @@ PRODUCT_COPY_FILES += \
 
 # Libshims
 PRODUCT_PACKAGES += \
-    libshims_camera \
-    libshims_ims
+    libshims_camera
 
 # Ramdisk
 PRODUCT_PACKAGES += \

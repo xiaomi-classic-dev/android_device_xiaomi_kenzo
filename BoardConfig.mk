@@ -40,7 +40,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Shim
 TARGET_LD_SHIM_LIBS += \
-    /system/vendor/lib64/lib-imsvt.so|libshims_ims.so \
 	/system/vendor/bin/mm-qcamera-daemon|libshims_camera.so
 
 # inherit from the proprietary version
