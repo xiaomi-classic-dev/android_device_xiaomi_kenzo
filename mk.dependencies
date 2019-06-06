@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_xiaomi_kenzo",
+    "target_path": "vendor/xiaomi/kenzo"
+  },
+  {
     "repository": "android_device_xiaomi_msm8956-common",
     "target_path": "device/xiaomi/msm8956-common"
   }
