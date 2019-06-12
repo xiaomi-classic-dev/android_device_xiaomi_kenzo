@@ -35,6 +35,9 @@ TARGET_KERNEL_CONFIG := mokee_kenzo_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-07-01
+
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
