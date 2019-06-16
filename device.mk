@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.qcom.power.rc \
     init.target.rc
 
 # Sensors
